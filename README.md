@@ -132,9 +132,8 @@ else:
 ```text
 ├── cell_images/               # Dataset (Not included in repo)
 ├── app.py                     # Streamlit web application
-├── train.py                   # Main training execution script
-├── feature_extraction.py      # Core OpenCV math and normalization logic
-├── model_pipeline.py          # Bayesian Opt & 20-Fold CV logic
+├── test.ipynb                 # Normal Training 20-Fold CV logic
+├── bayesian.ipynb             # Bayesian Opt & 20-Fold CV logic
 ├── best_malaria_model.pkl     # Saved weights from the best model
 └── README.md                  # Project documentation
 ```
